@@ -1,4 +1,4 @@
-data/appointment_id,patient_id,clinic_id,booked_on,appt_date,age,gender,distance_km,fee_inr,booking_channel,visit_type,reminder_sent,prior_no_shows,status
+appointment_id,patient_id,clinic_id,booked_on,appt_date,age,gender,distance_km,fee_inr,booking_channel,visit_type,reminder_sent,prior_no_shows,status
 A0001,P509,C05,1/24/2025,1/25/2025,60,F,18,850,Phone,Consultation,Yes,1,No-Show
 A0002,P046,C07,5/27/2025,6/6/2025,39,M,12.5,350,Walk-in,Follow-up,No,2,Attended
 A0003,P009,C02,3/24/2025,3/30/2025,63,F,4.1,850,Walk-in,Consultation,No,0,Attended
