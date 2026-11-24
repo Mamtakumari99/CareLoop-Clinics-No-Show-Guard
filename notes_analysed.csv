@@ -1,0 +1,56 @@
+note_id,appointment_id,root_cause,confidence,summary,recommended_action,validation_status,raw_response
+N001,A0872,forgot_or_no_reminder,1.0,The patient missed their appointment because they did not receive a reminder notification and subsequently forgot about the scheduled visit.,Implement an automated SMS or email reminder system sent 24-48 hours prior to all appointments.,valid,"{
+  ""root_cause"": ""forgot_or_no_reminder"",
+  ""confidence"": 1.0,
+  ""summary"": ""The patient missed their appointment because they did not receive a reminder notification and subsequently forgot about the scheduled visit."",
+  ""recommended_action"": ""Implement an automated SMS or email reminder system sent 24-48 hours prior to all appointments.""
+}"
+N002,A0897,distance_or_transport,1.0,The patient missed their appointment due to the clinic's distance and a lack of available transportation on the day of the visit.,Offer telehealth consultations for routine check-ups to patients living in remote areas.,valid,"{
+  ""root_cause"": ""distance_or_transport"",
+  ""confidence"": 1.0,
+  ""summary"": ""The patient missed their appointment due to the clinic's distance and a lack of available transportation on the day of the visit."",
+  ""recommended_action"": ""Offer telehealth consultations for routine check-ups to patients living in remote areas.""
+}"
+N003,A0526,cost_or_fee,1.0,The patient missed their appointment due to the high cost of the consultation fee and inquired about potential discounts.,Implement a sliding scale fee structure or offer loyalty discounts for recurring follow-up appointments.,valid,"{
+  ""root_cause"": ""cost_or_fee"",
+  ""confidence"": 1.0,
+  ""summary"": ""The patient missed their appointment due to the high cost of the consultation fee and inquired about potential discounts."",
+  ""recommended_action"": ""Implement a sliding scale fee structure or offer loyalty discounts for recurring follow-up appointments.""
+}"
+N004,A0926,other,0.0,No note recorded,Re-call patient,skipped_blank,
+N005,A0534,illness_or_emergency,1.0,"The patient missed their appointment due to a high fever and body aches, intending to reschedule once they have recovered.",Send a follow-up message to the patient once a reasonable recovery period has passed to assist with rescheduling.,valid,"{
+  ""root_cause"": ""illness_or_emergency"",
+  ""confidence"": 1.0,
+  ""summary"": ""The patient missed their appointment due to a high fever and body aches, intending to reschedule once they have recovered."",
+  ""recommended_action"": ""Send a follow-up message to the patient once a reasonable recovery period has passed to assist with rescheduling.""
+}"
+N006,A0507,work_or_schedule,1.0,"The patient missed their appointment due to an urgent, mandatory work meeting and requested an evening time slot for future visits.",Offer extended clinic hours or evening appointment slots to accommodate patients with rigid work schedules.,valid,"{
+  ""root_cause"": ""work_or_schedule"",
+  ""confidence"": 1.0,
+  ""summary"": ""The patient missed their appointment due to an urgent, mandatory work meeting and requested an evening time slot for future visits."",
+  ""recommended_action"": ""Offer extended clinic hours or evening appointment slots to accommodate patients with rigid work schedules.""
+}"
+N007,A0333,forgot_or_no_reminder,1.0,The patient missed the appointment because they forgot and did not receive an SMS reminder. They wish to reschedule.,Implement an automated SMS reminder system sent 24 hours before scheduled appointments.,valid,"{
+  ""root_cause"": ""forgot_or_no_reminder"",
+  ""confidence"": 1.0,
+  ""summary"": ""The patient missed the appointment because they forgot and did not receive an SMS reminder. They wish to reschedule."",
+  ""recommended_action"": ""Implement an automated SMS reminder system sent 24 hours before scheduled appointments.""
+}"
+N008,A0222,distance_or_transport,1.0,The patient missed the appointment due to a city bus strike and lack of available transportation options near their residence.,Offer telehealth consultations for patients residing in areas with limited public transportation access.,valid,"{
+  ""root_cause"": ""distance_or_transport"",
+  ""confidence"": 1.0,
+  ""summary"": ""The patient missed the appointment due to a city bus strike and lack of available transportation options near their residence."",
+  ""recommended_action"": ""Offer telehealth consultations for patients residing in areas with limited public transportation access.""
+}"
+N009,A0977,other,0.9,"The clinic attempted to contact the patient three times, but the phone was switched off, preventing confirmation of the appointment.",Implement an automated SMS reminder system to supplement phone calls.,valid,"{
+  ""root_cause"": ""other"",
+  ""confidence"": 0.9,
+  ""summary"": ""The clinic attempted to contact the patient three times, but the phone was switched off, preventing confirmation of the appointment."",
+  ""recommended_action"": ""Implement an automated SMS reminder system to supplement phone calls.""
+}"
+N010,A0596,work_or_schedule,1.0,The patient missed the appointment due to a mandatory shift change at their workplace and requested Saturday availability.,Offer the patient Saturday appointment slots to accommodate their work schedule.,valid,"{
+  ""root_cause"": ""work_or_schedule"",
+  ""confidence"": 1.0,
+  ""summary"": ""The patient missed the appointment due to a mandatory shift change at their workplace and requested Saturday availability."",
+  ""recommended_action"": ""Offer the patient Saturday appointment slots to accommodate their work schedule.""
+}"
